@@ -626,7 +626,35 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
-    vendor/xiaomi/msm8998-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    vendor/xiaomi/msm8998-common/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/xiaomi/msm8998-common/proprietary/lib/soundfx/libaudioeffect_jni.so:system/lib/soundfx/libaudioeffect_jni.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib/soundfx/libaudioflinger.so:system/lib/soundfx/libaudioflinger.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib/soundfx/libaudiopolicyenginedefault.so:system/lib/soundfx/libaudiopolicyenginedefault.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib/soundfx/libaudiopolicymanager.so:system/lib/soundfx/libaudiopolicymanager.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib/soundfx/libaudiopolicymanagerdefault.so:system/lib/soundfx/libaudiopolicymanagerdefault.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib/soundfx/libaudiopolicyservice.so:system/lib/soundfx/libaudiopolicyservice.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib/soundfx/libaudioresampler.so:system/lib/soundfx/libaudioresampler.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib/soundfx/libaudio-resampler.so:system/lib/soundfx/libaudio-resampler.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib/soundfx/libaudioroute.so:system/lib/soundfx/libaudioroute.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib/soundfx/libaudiospdif.so:system/lib/soundfx/libaudiospdif.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib/soundfx/libaudioutils.so:system/lib/soundfx/libaudioutils.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib64/soundfx/libaudioeffect_jni.so:system/lib64/soundfx/libaudioeffect_jni.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib64/soundfx/libaudioflinger.so:system/lib64/soundfx/libaudioflinger.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib64/soundfx/libaudiopolicyenginedefault.so:system/lib64/soundfx/libaudiopolicyenginedefault.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib64/soundfx/libaudiopolicymanager.so:system/lib64/soundfx/libaudiopolicymanager.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib64/soundfx/libaudiopolicymanagerdefault.so:system/lib64/soundfx/libaudiopolicymanagerdefault.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib64/soundfx/libaudiopolicyservice.so:system/lib64/soundfx/libaudiopolicyservice.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib64/soundfx/libaudioresampler.so:system/lib64/soundfx/libaudioresampler.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib64/soundfx/libaudio-resampler.so:system/lib64/soundfx/libaudio-resampler.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib64/soundfx/libaudioroute.so:system/lib64/soundfx/libaudioroute.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib64/soundfx/libaudiospdif.so:system/lib64/soundfx/libaudiospdif.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib64/soundfx/libaudioutils.so:system/lib64/soundfx/libaudioutils.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib/soundfx/libsoundpool.so:system/lib/soundfx/libsoundpool.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib/soundfx/libsoundtrigger.so:system/lib/soundfx/libsoundtrigger.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib/soundfx/libsoundtriggerservice.so:system/lib/soundfx/libsoundtriggerservice.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib64/soundfx/libsoundpool.so:system/lib64/soundfx/libsoundpool.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib64/soundfx/libsoundtrigger.so:system/lib64/soundfx/libsoundtrigger.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib64/soundfx/libsoundtriggerservice.so:system/lib64/soundfx/libsoundtriggerservice.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \

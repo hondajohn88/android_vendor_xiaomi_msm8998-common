@@ -448,7 +448,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libvpp_frc.so:system/vendor/lib/rfsa/adsp/libvpp_frc.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libvpp_svc_skel.so:system/vendor/lib/rfsa/adsp/libvpp_svc_skel.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
-    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib/sensors.ssc.so:system/lib/sensors.ssc.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
@@ -622,13 +622,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
-    vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib64/sensors.ssc.so:system/lib64/sensors.ssc.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/qcril.db:system/vendor/qcril.db \
     vendor/xiaomi/msm8998-common/proprietary/lib/soundfx/libaudioeffect_jni.so:system/lib/soundfx/libaudioeffect_jni.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/soundfx/libaudioflinger.so:system/lib/soundfx/libaudioflinger.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib64/soundfx/libaudioflinger.so:system/lib64/soundfx/libaudioflinger.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/soundfx/libaudiopolicyenginedefault.so:system/lib/soundfx/libaudiopolicyenginedefault.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/soundfx/libaudiopolicymanager.so:system/lib/soundfx/libaudiopolicymanager.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/soundfx/libaudiopolicymanagerdefault.so:system/lib/soundfx/libaudiopolicymanagerdefault.so \
@@ -654,7 +655,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/lib/soundfx/libsoundtriggerservice.so:system/lib/soundfx/libsoundtriggerservice.so \
     vendor/xiaomi/msm8998-common/proprietary/lib64/soundfx/libsoundpool.so:system/lib64/soundfx/libsoundpool.so \
     vendor/xiaomi/msm8998-common/proprietary/lib64/soundfx/libsoundtrigger.so:system/lib64/soundfx/libsoundtrigger.so \
-    vendor/xiaomi/msm8998-common/proprietary/lib64/soundfx/libsoundtriggerservice.so:system/lib64/soundfx/libsoundtriggerservice.so
+    vendor/xiaomi/msm8998-common/proprietary/lib64/soundfx/libsoundtriggerservice.so:system/lib64/soundfx/libsoundtriggerservice.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib/hw/power.msm8998.so:system/lib/hw/power.msm8998.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/libdrmclearkeyplugin.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/libdrmclearkeyplugin.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libavcodec.so:system/vendor/lib/libavcodec.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libavformat.so:system/vendor/lib/libavformat.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libavutil.so:system/vendor/lib/lib/libavutil.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/libbt-vendor.so:system/vendor/lib64/libbt-vendor.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \

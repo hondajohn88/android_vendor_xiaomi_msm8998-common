@@ -666,6 +666,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/libbt-vendor.so:system/vendor/lib64/libbt-vendor.so
 
 PRODUCT_PACKAGES += \
+    libqminvapi \
     libloc_api_v02 \
     libgpustats \
     libsdm-disp-apis \
